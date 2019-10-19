@@ -47,37 +47,44 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Page-->
         <scene sceneID="Q0v-DJ-ZwF">
             <objects>
-                <viewController id="DoQ-EJ-eiI" sceneMemberID="viewController">
+                <viewController id="DoQ-EJ-eiI" customClass="LoginPage" customModule="DevNet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bJ2-yd-LiJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-ne-4h7">
-                                <rect key="frame" x="90" y="158" width="235" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-ne-4h7" customClass="AnimatedTextField" customModule="AnimatedTextInput">
+                                <rect key="frame" x="68" y="169" width="279" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5u0-eU-3RG">
-                                <rect key="frame" x="90" y="242" width="235" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IOG-Ec-6Xy" customClass="AnimatedTextField" customModule="AnimatedTextInput">
+                                <rect key="frame" x="68" y="246" width="279" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fP5-kf-u3i">
-                                <rect key="frame" x="188" y="366" width="38" height="30"/>
+                                <rect key="frame" x="147" y="423" width="120" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButton:" destination="DoQ-EJ-eiI" eventType="touchUpInside" id="tu2-7f-l1r"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KFJ-Vd-uBm"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="IOG-Ec-6Xy" id="Wuy-Sm-K6q"/>
+                        <outlet property="passwordTextField" destination="IOG-Ec-6Xy" id="u3Z-8H-ZES"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7p-WQ-lLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

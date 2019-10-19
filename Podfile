@@ -9,7 +9,7 @@ target 'DevNet' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
-  pod 'AnimatedTextInput'
-  
+  pod 'liquid-swipe'
+  pod 'SkyFloatingLabelTextField' 
 
 end
