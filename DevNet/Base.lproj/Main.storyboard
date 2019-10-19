@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <segue destination="DoQ-EJ-eiI" kind="show" id="ido-AG-WUQ"/>
+                                    <segue destination="DoQ-EJ-eiI" kind="show" id="aIP-X7-CMz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gir-xx-okZ">
@@ -55,19 +55,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-ne-4h7" customClass="AnimatedTextField" customModule="AnimatedTextInput">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-ne-4h7" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                                 <rect key="frame" x="68" y="169" width="279" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IOG-Ec-6Xy" customClass="AnimatedTextField" customModule="AnimatedTextInput">
-                                <rect key="frame" x="68" y="246" width="279" height="45"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IOG-Ec-6Xy" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                <rect key="frame" x="68" y="246" width="279" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fP5-kf-u3i">
                                 <rect key="frame" x="147" y="423" width="120" height="50"/>
@@ -82,13 +82,29 @@
                         <viewLayoutGuide key="safeArea" id="KFJ-Vd-uBm"/>
                     </view>
                     <connections>
-                        <outlet property="emailTextField" destination="IOG-Ec-6Xy" id="Wuy-Sm-K6q"/>
-                        <outlet property="passwordTextField" destination="IOG-Ec-6Xy" id="u3Z-8H-ZES"/>
+                        <outlet property="emailTextField" destination="xa1-ne-4h7" id="hQc-wj-f7V"/>
+                        <outlet property="passwordTextField" destination="IOG-Ec-6Xy" id="TOW-Fm-xSz"/>
+                        <segue destination="mkO-lQ-PJl" kind="show" identifier="goToHomeScreen" id="LzR-nx-qgA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7p-WQ-lLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1020.2898550724639" y="105.80357142857143"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wOX-Gy-I6u">
+            <objects>
+                <viewController id="mkO-lQ-PJl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QEq-pt-GHt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Njz-Xz-NC2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oKI-O9-BUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1907" y="106"/>
         </scene>
     </scenes>
 </document>
