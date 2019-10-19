@@ -12,4 +12,6 @@ target 'DevNet' do
   pod 'liquid-swipe'
   pod 'SkyFloatingLabelTextField'
   pod 'CircleBar'
+  pod 'Koloda'
+  pod 'MessageViewController'
 end

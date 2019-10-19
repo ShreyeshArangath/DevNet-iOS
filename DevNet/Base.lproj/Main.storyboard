@@ -118,6 +118,41 @@
             </objects>
             <point key="canvasLocation" x="1020.2898550724639" y="105.80357142857143"/>
         </scene>
+        <!--Message View-->
+        <scene sceneID="Zcb-8P-JPj">
+            <objects>
+                <collectionViewController id="qFE-La-2lE" customClass="MessageView" customModule="DevNet" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="j06-Mh-VEG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0pK-1p-yHE">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mUh-Xz-O8q">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="qFE-La-2lE" id="lCO-2h-1n0"/>
+                            <outlet property="delegate" destination="qFE-La-2lE" id="XgQ-wO-cwc"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="" image="chat.png" id="wLV-UT-ZPb"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z4A-9s-V2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2814" y="844"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="9ZF-oI-m61">
             <objects>
@@ -134,10 +169,10 @@
             </objects>
             <point key="canvasLocation" x="3584" y="431"/>
         </scene>
-        <!--View Controller-->
+        <!--Developer-->
         <scene sceneID="1SL-5p-MX0">
             <objects>
-                <viewController id="dBC-ko-uch" sceneMemberID="viewController">
+                <viewController id="dBC-ko-uch" customClass="Developer" customModule="DevNet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Vf-IV-sdL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEJ-XD-l3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3584" y="-218"/>
+            <point key="canvasLocation" x="3582.608695652174" y="-232.36607142857142"/>
         </scene>
         <!--Circle Bar Controller-->
         <scene sceneID="HfS-Y9-akQ">
@@ -164,6 +199,7 @@
                     <connections>
                         <segue destination="dBC-ko-uch" kind="relationship" relationship="viewControllers" id="ZoH-a0-CGR"/>
                         <segue destination="i2L-YZ-8gO" kind="relationship" relationship="viewControllers" id="8YO-7q-Bo8"/>
+                        <segue destination="qFE-La-2lE" kind="relationship" relationship="viewControllers" id="KkA-SV-kJU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kaN-lF-7Sx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -173,6 +209,7 @@
     </scenes>
     <resources>
         <image name="DevNettransparent.png" width="400" height="400"/>
+        <image name="chat.png" width="50" height="50"/>
         <image name="mentor.png" width="50" height="50"/>
         <image name="student.png" width="50" height="50"/>
     </resources>

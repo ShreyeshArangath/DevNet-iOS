@@ -77,9 +77,12 @@ PODS:
   - GoogleUtilities/UserDefaults (6.2.5):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.2.2)
+  - Koloda (5.0):
+    - pop (~> 1.0)
   - leveldb-library (1.22)
   - liquid-swipe (0.7.0):
     - pop (~> 1.0)
+  - MessageViewController (0.2.1)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -93,7 +96,9 @@ DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Database
+  - Koloda
   - liquid-swipe
+  - MessageViewController
   - SkyFloatingLabelTextField
 
 SPEC REPOS:
@@ -113,8 +118,10 @@ SPEC REPOS:
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
     - GTMSessionFetcher
+    - Koloda
     - leveldb-library
     - liquid-swipe
+    - MessageViewController
     - nanopb
     - pop
     - SkyFloatingLabelTextField
@@ -135,12 +142,14 @@ SPEC CHECKSUMS:
   GoogleDataTransportCCTSupport: 6b545f7149111180763dc18c6f372c963de4a310
   GoogleUtilities: e7dc37039b19df7fe543479d3e4a02ac8d11bb69
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  Koloda: 75302d21882cc3e274c1561b1155805ea5919dab
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   liquid-swipe: 850f88c0717fe58ba83f0f571c47a191f29ddc1f
+  MessageViewController: 63ef2719d82c91d949ad52e101f049028a5a0611
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
 
-PODFILE CHECKSUM: 9677d61ba00dbffb7a33f0a12d2d494a45a1ba74
+PODFILE CHECKSUM: 0bd43c7e3f38b52b92e5e68c3a275ee6756ea022
 
 COCOAPODS: 1.5.0

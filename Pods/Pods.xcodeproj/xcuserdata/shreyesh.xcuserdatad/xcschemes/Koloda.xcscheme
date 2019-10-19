@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF00BA908D34DF16C8C11EE748B7C828"
-               BlueprintName = "SkyFloatingLabelTextField"
+               BlueprintIdentifier = "D13A0B8DCA7240C611B372C0C0161178"
+               BlueprintName = "Koloda"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "SkyFloatingLabelTextField.framework">
+               BuildableName = "Koloda.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
