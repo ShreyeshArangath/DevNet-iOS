@@ -23,6 +23,8 @@
 		81EEDF3F235AFEDB00CD3C04 /* StudentDeveloper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF3E235AFEDB00CD3C04 /* StudentDeveloper.swift */; };
 		81EEDF41235AFF6F00CD3C04 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF40235AFF6F00CD3C04 /* Mentor.swift */; };
 		81EEDF45235B963000CD3C04 /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF44235B963000CD3C04 /* student.png */; };
+		81EEDF47235B982B00CD3C04 /* mentor.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF46235B982B00CD3C04 /* mentor.png */; };
+		81EEDF49235B988B00CD3C04 /* DevNettransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF48235B988B00CD3C04 /* DevNettransparent.png */; };
 		F298D12E740A602944879B1D /* Pods_DevNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D340449F40FB8ED87792FD75 /* Pods_DevNet.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		81EEDF3E235AFEDB00CD3C04 /* StudentDeveloper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDeveloper.swift; sourceTree = "<group>"; };
 		81EEDF40235AFF6F00CD3C04 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		81EEDF44235B963000CD3C04 /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = student.png; path = Assets/student.png; sourceTree = "<group>"; };
+		81EEDF46235B982B00CD3C04 /* mentor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mentor.png; path = Assets/mentor.png; sourceTree = "<group>"; };
+		81EEDF48235B988B00CD3C04 /* DevNettransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DevNettransparent.png; path = Assets/DevNettransparent.png; sourceTree = "<group>"; };
 		D340449F40FB8ED87792FD75 /* Pods_DevNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C70D87F9B945D264B5FA26 /* Pods-DevNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevNet/Pods-DevNet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +97,9 @@
 				81EEDF25235AFA3800CD3C04 /* Info.plist */,
 				81EEDF2D235AFD9500CD3C04 /* GoogleService-Info.plist */,
 				81EEDF44235B963000CD3C04 /* student.png */,
+				81EEDF46235B982B00CD3C04 /* mentor.png */,
 				81EEDF1D235AFA3600CD3C04 /* DevNet.xcdatamodeld */,
+				81EEDF48235B988B00CD3C04 /* DevNettransparent.png */,
 			);
 			path = DevNet;
 			sourceTree = "<group>";
@@ -197,6 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EEDF49235B988B00CD3C04 /* DevNettransparent.png in Resources */,
+				81EEDF47235B982B00CD3C04 /* mentor.png in Resources */,
 				81EEDF24235AFA3800CD3C04 /* LaunchScreen.storyboard in Resources */,
 				81EEDF2E235AFD9500CD3C04 /* GoogleService-Info.plist in Resources */,
 				81EEDF21235AFA3800CD3C04 /* Assets.xcassets in Resources */,

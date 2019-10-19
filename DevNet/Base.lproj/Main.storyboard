@@ -18,13 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DevNet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epF-Qm-NqD">
-                                <rect key="frame" x="106" y="272" width="202" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xf-hD-44m">
                                 <rect key="frame" x="159" y="521" width="99" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -41,6 +34,10 @@
                                     <segue destination="46A-ik-FTj" kind="show" id="GDW-22-UIu"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DevNettransparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="2zR-cW-yQw">
+                                <rect key="frame" x="67" y="246" width="282" height="231"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -121,7 +118,7 @@
             </objects>
             <point key="canvasLocation" x="1020.2898550724639" y="105.80357142857143"/>
         </scene>
-        <!--Item 2-->
+        <!--View Controller-->
         <scene sceneID="9ZF-oI-m61">
             <objects>
                 <viewController id="i2L-YZ-8gO" sceneMemberID="viewController">
@@ -131,7 +128,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Fl4-Te-cHb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="KGb-o3-PpM"/>
+                    <tabBarItem key="tabBarItem" title="" image="mentor.png" id="KGb-o3-PpM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zyF-Ij-fIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -160,7 +157,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UFV-6y-BWJ" customClass="SHCircleBar" customModule="CircleBar">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.82927477359771729" green="0.49172061681747437" blue="0.29070240259170532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="dBC-ko-uch" kind="relationship" relationship="viewControllers" id="ZoH-a0-CGR"/>
@@ -173,6 +172,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="DevNettransparent.png" width="400" height="400"/>
+        <image name="mentor.png" width="50" height="50"/>
         <image name="student.png" width="50" height="50"/>
     </resources>
 </document>
