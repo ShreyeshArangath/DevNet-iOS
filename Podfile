@@ -10,6 +10,6 @@ target 'DevNet' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'liquid-swipe'
-  pod 'SkyFloatingLabelTextField' 
-
+  pod 'SkyFloatingLabelTextField'
+  pod 'CircleBar'
 end

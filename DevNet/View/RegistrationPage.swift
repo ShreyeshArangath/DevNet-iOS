@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import SkyFloatingLabelTextField
 
 class RegistrationPage: UIViewController {
 
+    @IBOutlet weak var emailTextField: SkyFloatingLabelTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        emailTextField.placeholder="Enter your email address"
+        emailTextField.title="Email"
     }
     
 

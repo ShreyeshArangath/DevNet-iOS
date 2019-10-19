@@ -1,4 +1,5 @@
 PODS:
+  - CircleBar (0.8.2)
   - Firebase/Analytics (6.7.0):
     - Firebase/Core
   - Firebase/Auth (6.7.0):
@@ -88,6 +89,7 @@ PODS:
   - SkyFloatingLabelTextField (3.7.0)
 
 DEPENDENCIES:
+  - CircleBar
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Database
@@ -96,6 +98,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - CircleBar
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -117,6 +120,7 @@ SPEC REPOS:
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
+  CircleBar: 8e17d2090e6e319b518010535a3145fb8fd68c22
   Firebase: 291d7b0a7b393f252358083b5d224884126fa46d
   FirebaseAnalytics: 843c7f64a8f9c79f0d03281197ebe7bb1d58d477
   FirebaseAuth: e7f86c2dfc57281cd01f7da5e4b40e01e4510a4a
@@ -137,6 +141,6 @@ SPEC CHECKSUMS:
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
 
-PODFILE CHECKSUM: 94e26a390d4d2ec34127bf7e7f7f18f08defac28
+PODFILE CHECKSUM: 9677d61ba00dbffb7a33f0a12d2d494a45a1ba74
 
 COCOAPODS: 1.5.0

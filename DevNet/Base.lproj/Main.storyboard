@@ -37,6 +37,9 @@
                                 <rect key="frame" x="158" y="574" width="99" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <segue destination="46A-ik-FTj" kind="show" id="GDW-22-UIu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,6 +49,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
+        </scene>
+        <!--Registration Page-->
+        <scene sceneID="St3-EI-uf3">
+            <objects>
+                <viewController id="46A-ik-FTj" customClass="RegistrationPage" customModule="DevNet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rxn-2K-syR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c49-Vz-hm7" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                <rect key="frame" x="50" y="413" width="315" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hqd-dp-lLx"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="c49-Vz-hm7" id="uDI-UU-ghc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgl-6u-ggf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="805.58035714285711"/>
         </scene>
         <!--Login Page-->
         <scene sceneID="Q0v-DJ-ZwF">
@@ -84,27 +114,65 @@
                     <connections>
                         <outlet property="emailTextField" destination="xa1-ne-4h7" id="hQc-wj-f7V"/>
                         <outlet property="passwordTextField" destination="IOG-Ec-6Xy" id="TOW-Fm-xSz"/>
-                        <segue destination="mkO-lQ-PJl" kind="show" identifier="goToHomeScreen" id="LzR-nx-qgA"/>
+                        <segue destination="dAU-tu-nj0" kind="show" identifier="goToHomeScreen" id="dqa-Ol-vVz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7p-WQ-lLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1020.2898550724639" y="105.80357142857143"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="wOX-Gy-I6u">
+        <!--Item 2-->
+        <scene sceneID="9ZF-oI-m61">
             <objects>
-                <viewController id="mkO-lQ-PJl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QEq-pt-GHt">
+                <viewController id="i2L-YZ-8gO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QKi-4g-a3B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Njz-Xz-NC2"/>
+                        <viewLayoutGuide key="safeArea" id="Fl4-Te-cHb"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="KGb-o3-PpM"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oKI-O9-BUq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zyF-Ij-fIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1907" y="106"/>
+            <point key="canvasLocation" x="3584" y="431"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1SL-5p-MX0">
+            <objects>
+                <viewController id="dBC-ko-uch" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Vf-IV-sdL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9ig-5h-cER"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="student.png" id="I5V-lx-9La"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tEJ-XD-l3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3584" y="-218"/>
+        </scene>
+        <!--Circle Bar Controller-->
+        <scene sceneID="HfS-Y9-akQ">
+            <objects>
+                <tabBarController id="dAU-tu-nj0" customClass="SHCircleBarController" customModule="CircleBar" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UFV-6y-BWJ" customClass="SHCircleBar" customModule="CircleBar">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dBC-ko-uch" kind="relationship" relationship="viewControllers" id="ZoH-a0-CGR"/>
+                        <segue destination="i2L-YZ-8gO" kind="relationship" relationship="viewControllers" id="8YO-7q-Bo8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kaN-lF-7Sx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2662" y="107"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="student.png" width="50" height="50"/>
+    </resources>
 </document>
