@@ -7,5 +7,9 @@ target 'DevNet' do
 
   # Pods for DevNet
   pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'AnimatedTextInput'
+  
 
 end

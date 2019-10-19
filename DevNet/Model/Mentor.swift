@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+class Mentor {
+    var name: String
+    var email: String
+    var skills: Array<String>
+    var position: String
+    var company: String
+    
+    init(name: String, email: String, skills: Array<String>, position:String, company: String){
+        self.name=name
+        self.email=email
+        self.skills=skills
+        self.position=position
+        self.company=company
+        
+    }
+}
