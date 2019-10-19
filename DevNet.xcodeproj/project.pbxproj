@@ -14,6 +14,14 @@
 		81EEDF21235AFA3800CD3C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF20235AFA3800CD3C04 /* Assets.xcassets */; };
 		81EEDF24235AFA3800CD3C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF22235AFA3800CD3C04 /* LaunchScreen.storyboard */; };
 		81EEDF2E235AFD9500CD3C04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF2D235AFD9500CD3C04 /* GoogleService-Info.plist */; };
+		81EEDF33235AFE6900CD3C04 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF32235AFE6900CD3C04 /* LandingPage.swift */; };
+		81EEDF35235AFE7900CD3C04 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF34235AFE7900CD3C04 /* LoginPage.swift */; };
+		81EEDF37235AFE8700CD3C04 /* RegistrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF36235AFE8700CD3C04 /* RegistrationPage.swift */; };
+		81EEDF39235AFEA900CD3C04 /* EmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF38235AFEA900CD3C04 /* EmailPage.swift */; };
+		81EEDF3B235AFEB900CD3C04 /* TagsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF3A235AFEB900CD3C04 /* TagsPage.swift */; };
+		81EEDF3D235AFEC800CD3C04 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF3C235AFEC800CD3C04 /* HomeScreen.swift */; };
+		81EEDF3F235AFEDB00CD3C04 /* StudentDeveloper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF3E235AFEDB00CD3C04 /* StudentDeveloper.swift */; };
+		81EEDF41235AFF6F00CD3C04 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF40235AFF6F00CD3C04 /* Mentor.swift */; };
 		F298D12E740A602944879B1D /* Pods_DevNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D340449F40FB8ED87792FD75 /* Pods_DevNet.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +36,14 @@
 		81EEDF23235AFA3800CD3C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81EEDF25235AFA3800CD3C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81EEDF2D235AFD9500CD3C04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81EEDF32235AFE6900CD3C04 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		81EEDF34235AFE7900CD3C04 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		81EEDF36235AFE8700CD3C04 /* RegistrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPage.swift; sourceTree = "<group>"; };
+		81EEDF38235AFEA900CD3C04 /* EmailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPage.swift; sourceTree = "<group>"; };
+		81EEDF3A235AFEB900CD3C04 /* TagsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsPage.swift; sourceTree = "<group>"; };
+		81EEDF3C235AFEC800CD3C04 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		81EEDF3E235AFEDB00CD3C04 /* StudentDeveloper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDeveloper.swift; sourceTree = "<group>"; };
+		81EEDF40235AFF6F00CD3C04 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 		D340449F40FB8ED87792FD75 /* Pods_DevNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C70D87F9B945D264B5FA26 /* Pods-DevNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevNet/Pods-DevNet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +81,8 @@
 		81EEDF15235AFA3600CD3C04 /* DevNet */ = {
 			isa = PBXGroup;
 			children = (
+				81EEDF31235AFE5600CD3C04 /* View */,
+				81EEDF2F235AFE3E00CD3C04 /* Model */,
 				81EEDF16235AFA3600CD3C04 /* AppDelegate.swift */,
 				81EEDF18235AFA3600CD3C04 /* ViewController.swift */,
 				81EEDF1A235AFA3600CD3C04 /* Main.storyboard */,
@@ -75,6 +93,28 @@
 				81EEDF1D235AFA3600CD3C04 /* DevNet.xcdatamodeld */,
 			);
 			path = DevNet;
+			sourceTree = "<group>";
+		};
+		81EEDF2F235AFE3E00CD3C04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81EEDF3E235AFEDB00CD3C04 /* StudentDeveloper.swift */,
+				81EEDF40235AFF6F00CD3C04 /* Mentor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81EEDF31235AFE5600CD3C04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81EEDF32235AFE6900CD3C04 /* LandingPage.swift */,
+				81EEDF34235AFE7900CD3C04 /* LoginPage.swift */,
+				81EEDF36235AFE8700CD3C04 /* RegistrationPage.swift */,
+				81EEDF38235AFEA900CD3C04 /* EmailPage.swift */,
+				81EEDF3A235AFEB900CD3C04 /* TagsPage.swift */,
+				81EEDF3C235AFEC800CD3C04 /* HomeScreen.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AFC27CC0B832F3829BFEAB45 /* Pods */ = {
@@ -210,7 +250,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				81EEDF1F235AFA3600CD3C04 /* DevNet.xcdatamodeld in Sources */,
+				81EEDF39235AFEA900CD3C04 /* EmailPage.swift in Sources */,
+				81EEDF37235AFE8700CD3C04 /* RegistrationPage.swift in Sources */,
 				81EEDF19235AFA3600CD3C04 /* ViewController.swift in Sources */,
+				81EEDF33235AFE6900CD3C04 /* LandingPage.swift in Sources */,
+				81EEDF3D235AFEC800CD3C04 /* HomeScreen.swift in Sources */,
+				81EEDF3F235AFEDB00CD3C04 /* StudentDeveloper.swift in Sources */,
+				81EEDF3B235AFEB900CD3C04 /* TagsPage.swift in Sources */,
+				81EEDF41235AFF6F00CD3C04 /* Mentor.swift in Sources */,
+				81EEDF35235AFE7900CD3C04 /* LoginPage.swift in Sources */,
 				81EEDF17235AFA3600CD3C04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
