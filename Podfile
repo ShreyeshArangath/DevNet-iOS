@@ -13,5 +13,7 @@ target 'DevNet' do
   pod 'SkyFloatingLabelTextField'
   pod 'CircleBar'
   pod 'TagListView', '~> 1.0'
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
 end

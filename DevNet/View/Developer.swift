@@ -1,10 +1,19 @@
 import UIKit
 import TagListView
+import FirebaseFirestore
+import FirebaseCore
+import Firebase
+
 
 class Developer: UIViewController{
     
     @IBOutlet weak var imageOfDev: UIImageView!
     @IBOutlet weak var devName: UILabel!
+    
+    
+    var ref: DocumentReference? = nil
+    
+    let db = Firestore.firestore()
     
     @IBOutlet weak var tagView: TagListView!
     override func viewDidLoad() {
@@ -15,6 +24,16 @@ class Developer: UIViewController{
         
     }
     @IBAction func acceptButtonPressed(_ sender: Any) {
+        let randomNumber = arc4random_uniform(4) + 1
+        ref=db.collection("cities").document(String(randomNumber))
+        
+        ref?.getDocument { (document, err) in
+            if case let err=err{
+                print(err)
+            } else {
+                print(document?.data())
+            }
+        }
         
     }
     

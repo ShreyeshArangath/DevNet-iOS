@@ -19,25 +19,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xf-hD-44m">
-                                <rect key="frame" x="159" y="521" width="99" height="30"/>
+                                <rect key="frame" x="107" y="485" width="200" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login"/>
+                                <state key="normal" backgroundImage="login.png"/>
                                 <connections>
                                     <segue destination="DoQ-EJ-eiI" kind="show" id="aIP-X7-CMz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gir-xx-okZ">
-                                <rect key="frame" x="158" y="574" width="99" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Register"/>
-                                <connections>
-                                    <segue destination="46A-ik-FTj" kind="show" id="GDW-22-UIu"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DevNettransparent.png" translatesAutoresizingMaskIntoConstraints="NO" id="2zR-cW-yQw">
                                 <rect key="frame" x="67" y="246" width="282" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gir-xx-okZ">
+                                <rect key="frame" x="113" y="564" width="190" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="signup.png"/>
+                                <connections>
+                                    <segue destination="46A-ik-FTj" kind="show" id="GDW-22-UIu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -97,9 +97,9 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fP5-kf-u3i">
-                                <rect key="frame" x="147" y="423" width="120" height="50"/>
+                                <rect key="frame" x="107" y="401" width="200" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login"/>
+                                <state key="normal" backgroundImage="login.png"/>
                                 <connections>
                                     <action selector="loginButton:" destination="DoQ-EJ-eiI" eventType="touchUpInside" id="tu2-7f-l1r"/>
                                     <segue destination="dAU-tu-nj0" kind="show" identifier="goToHomeScreen" id="Jny-VA-SPA"/>
@@ -147,7 +147,9 @@
                             <outlet property="delegate" destination="qFE-La-2lE" id="XgQ-wO-cwc"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="" image="chat.png" id="wLV-UT-ZPb"/>
+                    <tabBarItem key="tabBarItem" title="" image="chat.png" id="wLV-UT-ZPb">
+                        <color key="badgeColor" red="0.82927477360000001" green="0.49172061680000001" blue="0.29070240260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z4A-9s-V2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -160,14 +162,14 @@
                     <view key="view" contentMode="scaleToFill" id="QKi-4g-a3B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Fl4-Te-cHb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="mentor.png" id="KGb-o3-PpM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zyF-Ij-fIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3584" y="431"/>
+            <point key="canvasLocation" x="3658" y="592"/>
         </scene>
         <!--Developer-->
         <scene sceneID="1SL-5p-MX0">
@@ -214,7 +216,6 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-Ss-5ZX" customClass="TagListView" customModule="TagListView">
                                 <rect key="frame" x="20" y="586" width="374" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -282,8 +283,10 @@
         <image name="DevNettransparent.png" width="400" height="400"/>
         <image name="back.png" width="513" height="513"/>
         <image name="chat.png" width="50" height="50"/>
+        <image name="login.png" width="800" height="300"/>
         <image name="mentor.png" width="50" height="50"/>
         <image name="no.png" width="513" height="513"/>
+        <image name="signup.png" width="400" height="150"/>
         <image name="student.png" width="50" height="50"/>
         <image name="yes.png" width="400" height="400"/>
     </resources>

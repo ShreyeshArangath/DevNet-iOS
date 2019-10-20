@@ -1,4 +1,10 @@
 PODS:
+  - BoringSSL-GRPC (0.0.3):
+    - BoringSSL-GRPC/Implementation (= 0.0.3)
+    - BoringSSL-GRPC/Interface (= 0.0.3)
+  - BoringSSL-GRPC/Implementation (0.0.3):
+    - BoringSSL-GRPC/Interface (= 0.0.3)
+  - BoringSSL-GRPC/Interface (0.0.3)
   - CircleBar (0.8.2)
   - Firebase/Analytics (6.10.0):
     - Firebase/Core
@@ -13,6 +19,9 @@ PODS:
   - Firebase/Database (6.10.0):
     - Firebase/CoreOnly
     - FirebaseDatabase (~> 6.1.1)
+  - Firebase/Firestore (6.10.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (~> 1.6.0)
   - FirebaseAnalytics (6.1.3):
     - FirebaseCore (~> 6.3)
     - FirebaseInstanceID (~> 4.2)
@@ -45,6 +54,21 @@ PODS:
     - FirebaseAuthInterop (~> 1.0)
     - FirebaseCore (~> 6.0)
     - leveldb-library (~> 1.22)
+  - FirebaseFirestore (1.6.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - FirebaseFirestore/abseil-cpp (= 1.6.0)
+    - "gRPC-C++ (= 0.0.9)"
+    - leveldb-library (~> 1.22)
+    - nanopb (~> 0.3.901)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseFirestore/abseil-cpp (1.6.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - "gRPC-C++ (= 0.0.9)"
+    - leveldb-library (~> 1.22)
+    - nanopb (~> 0.3.901)
+    - Protobuf (>= 3.9.2, ~> 3.9)
   - FirebaseInstanceID (4.2.5):
     - FirebaseCore (~> 6.0)
     - GoogleUtilities/Environment (~> 6.0)
@@ -77,6 +101,22 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.3.1):
     - GoogleUtilities/Logger
+  - "gRPC-C++ (0.0.9)":
+    - "gRPC-C++/Implementation (= 0.0.9)"
+    - "gRPC-C++/Interface (= 0.0.9)"
+  - "gRPC-C++/Implementation (0.0.9)":
+    - "gRPC-C++/Interface (= 0.0.9)"
+    - gRPC-Core (= 1.21.0)
+    - nanopb (~> 0.3)
+  - "gRPC-C++/Interface (0.0.9)"
+  - gRPC-Core (1.21.0):
+    - gRPC-Core/Implementation (= 1.21.0)
+    - gRPC-Core/Interface (= 1.21.0)
+  - gRPC-Core/Implementation (1.21.0):
+    - BoringSSL-GRPC (= 0.0.3)
+    - gRPC-Core/Interface (= 1.21.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.21.0)
   - GTMSessionFetcher/Core (1.2.2)
   - leveldb-library (1.22)
   - liquid-swipe (0.7.0):
@@ -87,6 +127,7 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - pop (1.0.12)
+  - Protobuf (3.10.0)
   - SkyFloatingLabelTextField (3.7.0)
   - TagListView (1.4.0)
 
@@ -94,13 +135,16 @@ DEPENDENCIES:
   - CircleBar
   - Firebase/Analytics
   - Firebase/Auth
+  - Firebase/Core
   - Firebase/Database
+  - Firebase/Firestore
   - liquid-swipe
   - SkyFloatingLabelTextField
   - TagListView (~> 1.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - BoringSSL-GRPC
     - CircleBar
     - Firebase
     - FirebaseAnalytics
@@ -110,20 +154,25 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
     - FirebaseDatabase
+    - FirebaseFirestore
     - FirebaseInstanceID
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
+    - "gRPC-C++"
+    - gRPC-Core
     - GTMSessionFetcher
     - leveldb-library
     - liquid-swipe
     - nanopb
     - pop
+    - Protobuf
     - SkyFloatingLabelTextField
     - TagListView
 
 SPEC CHECKSUMS:
+  BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
   CircleBar: 8e17d2090e6e319b518010535a3145fb8fd68c22
   Firebase: 5e6b7b12bf9adb90986688edc06b156c37e109cd
   FirebaseAnalytics: 0e3ecff2c5d86070f7d4325e21f1edabfbd558dc
@@ -133,19 +182,23 @@ SPEC CHECKSUMS:
   FirebaseCoreDiagnostics: af29e43048607588c050889d19204f4d7b758c9f
   FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
   FirebaseDatabase: 524802f7694268c79d34aeac3d67997593e1a0c9
+  FirebaseFirestore: 5a9e9a14305336e8d1a4f915a45ecf0f5d6dcaec
   FirebaseInstanceID: 550df9be1f99f751d8fcde3ac342a1e21a0e6c42
   GoogleAppMeasurement: 434cc7be25e71dc04b8d0e3079125127b330e84a
   GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
   GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
   GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  "gRPC-C++": 9dfe7b44821e7b3e44aacad2af29d2c21f7cde83
+  gRPC-Core: c9aef9a261a1247e881b18059b84d597293c9947
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   liquid-swipe: 850f88c0717fe58ba83f0f571c47a191f29ddc1f
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
   TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
 
-PODFILE CHECKSUM: 0cb2fd41c57942fa8f2b2d0a9da1104c2833c772
+PODFILE CHECKSUM: ddebfc5b9976e4934d32dcf52e9b13d29f1a955d
 
 COCOAPODS: 1.5.0
