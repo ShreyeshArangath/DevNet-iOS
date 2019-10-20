@@ -16,6 +16,8 @@
 		81D13E31235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E30235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg */; };
 		81D13E34235C6893003D7605 /* DevNet-font.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E32235C6893003D7605 /* DevNet-font.png */; };
 		81D13E35235C6893003D7605 /* DevNettransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E33235C6893003D7605 /* DevNettransparent.png */; };
+		81D13E38235C746F003D7605 /* schrodinger.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E36235C746E003D7605 /* schrodinger.png */; };
+		81D13E39235C746F003D7605 /* bezos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E37235C746F003D7605 /* bezos.jpg */; };
 		81EEDF17235AFA3600CD3C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF16235AFA3600CD3C04 /* AppDelegate.swift */; };
 		81EEDF19235AFA3600CD3C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF18235AFA3600CD3C04 /* ViewController.swift */; };
 		81EEDF1C235AFA3600CD3C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF1A235AFA3600CD3C04 /* Main.storyboard */; };
@@ -53,6 +55,8 @@
 		81D13E30235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Some_Guy_On_A_Potato_grande.jpg; path = Assets/Some_Guy_On_A_Potato_grande.jpg; sourceTree = "<group>"; };
 		81D13E32235C6893003D7605 /* DevNet-font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DevNet-font.png"; path = "Assets/DevNet-font.png"; sourceTree = "<group>"; };
 		81D13E33235C6893003D7605 /* DevNettransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DevNettransparent.png; path = Assets/DevNettransparent.png; sourceTree = "<group>"; };
+		81D13E36235C746E003D7605 /* schrodinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = schrodinger.png; path = Assets/schrodinger.png; sourceTree = "<group>"; };
+		81D13E37235C746F003D7605 /* bezos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bezos.jpg; path = Assets/bezos.jpg; sourceTree = "<group>"; };
 		81EEDF13235AFA3600CD3C04 /* DevNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EEDF16235AFA3600CD3C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81EEDF18235AFA3600CD3C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				81EEDF44235B963000CD3C04 /* student.png */,
 				81D13E26235C4A4F003D7605 /* login.png */,
 				81D13E24235C4A4E003D7605 /* no.png */,
+				81D13E37235C746F003D7605 /* bezos.jpg */,
+				81D13E36235C746E003D7605 /* schrodinger.png */,
 				81D13E2E235C51DE003D7605 /* back.png */,
 				81D13E25235C4A4E003D7605 /* signup.png */,
 				81D13E30235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg */,
@@ -257,12 +263,14 @@
 				81EEDF21235AFA3800CD3C04 /* Assets.xcassets in Resources */,
 				81EEDF53235BBCE500CD3C04 /* elon_boi.jpg in Resources */,
 				81EEDF1C235AFA3600CD3C04 /* Main.storyboard in Resources */,
+				81D13E38235C746F003D7605 /* schrodinger.png in Resources */,
 				81D13E35235C6893003D7605 /* DevNettransparent.png in Resources */,
 				81D13E2F235C51DF003D7605 /* back.png in Resources */,
 				81EEDF45235B963000CD3C04 /* student.png in Resources */,
 				81D13E29235C4A50003D7605 /* signup.png in Resources */,
 				81D13E2A235C4A50003D7605 /* login.png in Resources */,
 				81D13E34235C6893003D7605 /* DevNet-font.png in Resources */,
+				81D13E39235C746F003D7605 /* bezos.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +306,11 @@
 				"${BUILT_PRODUCTS_DIR}/CircleBar/CircleBar.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
@@ -314,8 +325,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",

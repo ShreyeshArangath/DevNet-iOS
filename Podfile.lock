@@ -121,14 +121,19 @@ PODS:
   - leveldb-library (1.22)
   - liquid-swipe (0.7.0):
     - pop (~> 1.0)
+  - MarqueeLabel (4.0.0)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - NotificationBannerSwift (2.5.0):
+    - MarqueeLabel (~> 4.0.0)
+    - SnapKit (~> 5.0.0)
   - pop (1.0.12)
   - Protobuf (3.10.0)
   - SkyFloatingLabelTextField (3.7.0)
+  - SnapKit (5.0.1)
   - TagListView (1.4.0)
 
 DEPENDENCIES:
@@ -139,6 +144,7 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Firestore
   - liquid-swipe
+  - NotificationBannerSwift (= 2.5.0)
   - SkyFloatingLabelTextField
   - TagListView (~> 1.0)
 
@@ -165,10 +171,13 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - liquid-swipe
+    - MarqueeLabel
     - nanopb
+    - NotificationBannerSwift
     - pop
     - Protobuf
     - SkyFloatingLabelTextField
+    - SnapKit
     - TagListView
 
 SPEC CHECKSUMS:
@@ -193,12 +202,15 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   liquid-swipe: 850f88c0717fe58ba83f0f571c47a191f29ddc1f
+  MarqueeLabel: b55b26e690b6ad41faedd95cbf5eae6f1d1735b4
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  NotificationBannerSwift: 684966fa934c48b70eff8bbec93fccf8db603365
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
 
-PODFILE CHECKSUM: ddebfc5b9976e4934d32dcf52e9b13d29f1a955d
+PODFILE CHECKSUM: 731276577a95b4b788939671e9ca76e3fe3dc593
 
 COCOAPODS: 1.5.0

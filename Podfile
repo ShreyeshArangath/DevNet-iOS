@@ -15,5 +15,6 @@ target 'DevNet' do
   pod 'TagListView', '~> 1.0'
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'NotificationBannerSwift', '2.5.0'
 
 end

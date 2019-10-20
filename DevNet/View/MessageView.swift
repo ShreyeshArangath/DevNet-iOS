@@ -21,7 +21,8 @@ class MessageView: UICollectionViewController, UICollectionViewDelegateFlowLayou
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return 2
+        
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -53,14 +54,14 @@ class MessageViewCell: BaseCell {
     
     let nameLabel: UILabel = {
         let label = UILabel()
-        label.text = "Mark Zuckerberg"
+        label.text = "Boi"
         label.font = UIFont.systemFont(ofSize: 18)
         return label
     }()
     
     let messageLabel: UILabel = {
         let label = UILabel()
-        label.text = "Your friend's message and something else..."
+        label.text = "Plis reply"
         label.textColor = UIColor.darkGray
         label.font = UIFont.systemFont(ofSize: 14)
         return label

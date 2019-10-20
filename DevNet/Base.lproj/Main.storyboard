@@ -123,7 +123,7 @@
             <objects>
                 <collectionViewController id="qFE-La-2lE" customClass="MessageView" customModule="DevNet" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="j06-Mh-VEG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0pK-1p-yHE">
@@ -160,7 +160,7 @@
             <objects>
                 <viewController id="i2L-YZ-8gO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QKi-4g-a3B">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Fl4-Te-cHb"/>
@@ -176,11 +176,11 @@
             <objects>
                 <viewController id="dBC-ko-uch" customClass="Developer" customModule="DevNet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Vf-IV-sdL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbW-5t-8MA">
-                                <rect key="frame" x="270" y="657" width="82" height="79"/>
+                                <rect key="frame" x="302" y="692" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="yes.png"/>
                                 <connections>
@@ -188,25 +188,25 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZAl-Yb-TcL">
-                                <rect key="frame" x="20" y="44" width="374" height="358"/>
+                                <rect key="frame" x="20" y="88" width="374" height="358"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shreyesh Arangath" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he2-Wy-5dn">
-                                <rect key="frame" x="31" y="410" width="353" height="64"/>
+                                <rect key="frame" x="31" y="454" width="353" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Texas Tech University" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGE-1Y-KKM">
-                                <rect key="frame" x="111" y="482" width="193" height="26"/>
+                                <rect key="frame" x="111" y="526" width="193" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmx-dd-7uq">
-                                <rect key="frame" x="54" y="657" width="81" height="79"/>
+                                <rect key="frame" x="41" y="697" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="no.png"/>
                                 <connections>
@@ -214,7 +214,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-Ss-5ZX" customClass="TagListView" customModule="TagListView">
-                                <rect key="frame" x="20" y="533" width="374" height="90"/>
+                                <rect key="frame" x="20" y="577" width="374" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </view>
                         </subviews>
@@ -227,11 +227,12 @@
                         <outlet property="imageOfDev" destination="ZAl-Yb-TcL" id="l7D-8D-Foj"/>
                         <outlet property="tagView" destination="Z4h-Ss-5ZX" id="2hi-r0-SIM"/>
                         <outlet property="universityNameField" destination="FGE-1Y-KKM" id="9z8-aP-5jf"/>
+                        <segue destination="UlC-Ch-uKQ" kind="show" id="z7x-ko-B74"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEJ-XD-l3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3657.971014492754" y="-240.40178571428569"/>
+            <point key="canvasLocation" x="3553.6231884057975" y="-408.48214285714283"/>
         </scene>
         <!--User Description-->
         <scene sceneID="ClH-Z9-wER">
@@ -262,12 +263,12 @@
         <scene sceneID="HfS-Y9-akQ">
             <objects>
                 <tabBarController modalPresentationStyle="pageSheet" id="dAU-tu-nj0" customClass="SHCircleBarController" customModule="CircleBar" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UFV-6y-BWJ" customClass="SHCircleBar" customModule="CircleBar">
+                    <tabBar key="tabBar" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="UFV-6y-BWJ" customClass="SHCircleBar" customModule="CircleBar">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.82927477359771729" green="0.49172061681747437" blue="0.29070240259170532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.91253900527954102" green="0.46062469482421875" blue="0.4878966212272644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.82927477360000001" green="0.49172061680000001" blue="0.29070240260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="i2L-YZ-8gO" kind="relationship" relationship="viewControllers" id="QkG-B8-gVo"/>

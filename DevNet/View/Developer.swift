@@ -35,14 +35,18 @@ class Developer: UIViewController{
         ref?.getDocument { (document, err) in
             if let err=err{
                 print(err)
-            } else {
-                self.devName.text=document?.get("name") as! String?
-            self.universityNameField.text=document?.get("university") as! String?
-                
-                self.tagView.removeAllTags()
-                self.tagView.addTags(document?.get("skills") as! Array<String>)
                 
             }
+        else {
+            self.devName.text=document?.get("name") as! String?
+        self.universityNameField.text=document?.get("university") as! String?
+            
+            self.tagView.removeAllTags()
+            self.tagView.addTags(document?.get("skills") as! Array<String>)
+
+                
+        }
+            
         }
         
     }
