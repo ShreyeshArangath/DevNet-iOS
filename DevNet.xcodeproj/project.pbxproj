@@ -22,22 +22,14 @@
 		81EEDF3D235AFEC800CD3C04 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF3C235AFEC800CD3C04 /* HomeScreen.swift */; };
 		81EEDF3F235AFEDB00CD3C04 /* StudentDeveloper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF3E235AFEDB00CD3C04 /* StudentDeveloper.swift */; };
 		81EEDF41235AFF6F00CD3C04 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF40235AFF6F00CD3C04 /* Mentor.swift */; };
+		81EEDF45235B963000CD3C04 /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF44235B963000CD3C04 /* student.png */; };
+		81EEDF47235B982B00CD3C04 /* mentor.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF46235B982B00CD3C04 /* mentor.png */; };
 		81EEDF49235B988B00CD3C04 /* DevNettransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF48235B988B00CD3C04 /* DevNettransparent.png */; };
+		81EEDF4B235B9C4F00CD3C04 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF4A235B9C4F00CD3C04 /* chat.png */; };
 		81EEDF4F235BA69200CD3C04 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF4E235BA69200CD3C04 /* Developer.swift */; };
 		81EEDF51235BB3EC00CD3C04 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF50235BB3EC00CD3C04 /* MessageView.swift */; };
-		81EEDF74235C1F3D00CD3C04 /* elon_boi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF68235C1F3A00CD3C04 /* elon_boi.jpg */; };
-		81EEDF75235C1F3D00CD3C04 /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF69235C1F3A00CD3C04 /* no.png */; };
-		81EEDF76235C1F3D00CD3C04 /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF6A235C1F3A00CD3C04 /* signup.png */; };
-		81EEDF77235C1F3D00CD3C04 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF6B235C1F3B00CD3C04 /* back.png */; };
-		81EEDF78235C1F3D00CD3C04 /* mentor.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF6C235C1F3B00CD3C04 /* mentor.png */; };
-		81EEDF79235C1F3D00CD3C04 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF6D235C1F3B00CD3C04 /* chat.png */; };
-		81EEDF7A235C1F3D00CD3C04 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF6E235C1F3B00CD3C04 /* login.png */; };
-		81EEDF7B235C1F3D00CD3C04 /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF6F235C1F3C00CD3C04 /* student.png */; };
-		81EEDF7C235C1F3D00CD3C04 /* keanu_boi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF70235C1F3C00CD3C04 /* keanu_boi.jpeg */; };
-		81EEDF7D235C1F3D00CD3C04 /* DevNettransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF71235C1F3C00CD3C04 /* DevNettransparent.png */; };
-		81EEDF7E235C1F3D00CD3C04 /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF72235C1F3C00CD3C04 /* yes.png */; };
-		81EEDF7F235C1F3D00CD3C04 /* background_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF73235C1F3C00CD3C04 /* background_2.png */; };
-		81EEDF81235C213100CD3C04 /* Swipable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF80235C213100CD3C04 /* Swipable.swift */; };
+		81EEDF53235BBCE500CD3C04 /* elon_boi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF52235BBCE400CD3C04 /* elon_boi.jpg */; };
+		81EEDF55235BFA7400CD3C04 /* keanu_boi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF54235BFA7400CD3C04 /* keanu_boi.jpeg */; };
 		F298D12E740A602944879B1D /* Pods_DevNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D340449F40FB8ED87792FD75 /* Pods_DevNet.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,22 +52,14 @@
 		81EEDF3C235AFEC800CD3C04 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		81EEDF3E235AFEDB00CD3C04 /* StudentDeveloper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDeveloper.swift; sourceTree = "<group>"; };
 		81EEDF40235AFF6F00CD3C04 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		81EEDF44235B963000CD3C04 /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = student.png; path = Assets/student.png; sourceTree = "<group>"; };
+		81EEDF46235B982B00CD3C04 /* mentor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mentor.png; path = Assets/mentor.png; sourceTree = "<group>"; };
 		81EEDF48235B988B00CD3C04 /* DevNettransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DevNettransparent.png; path = Assets/DevNettransparent.png; sourceTree = "<group>"; };
+		81EEDF4A235B9C4F00CD3C04 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat.png; path = Assets/chat.png; sourceTree = "<group>"; };
 		81EEDF4E235BA69200CD3C04 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		81EEDF50235BB3EC00CD3C04 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
-		81EEDF68235C1F3A00CD3C04 /* elon_boi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elon_boi.jpg; path = Assets/elon_boi.jpg; sourceTree = "<group>"; };
-		81EEDF69235C1F3A00CD3C04 /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no.png; path = Assets/no.png; sourceTree = "<group>"; };
-		81EEDF6A235C1F3A00CD3C04 /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signup.png; path = Assets/signup.png; sourceTree = "<group>"; };
-		81EEDF6B235C1F3B00CD3C04 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Assets/back.png; sourceTree = "<group>"; };
-		81EEDF6C235C1F3B00CD3C04 /* mentor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mentor.png; path = Assets/mentor.png; sourceTree = "<group>"; };
-		81EEDF6D235C1F3B00CD3C04 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat.png; path = Assets/chat.png; sourceTree = "<group>"; };
-		81EEDF6E235C1F3B00CD3C04 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login.png; path = Assets/login.png; sourceTree = "<group>"; };
-		81EEDF6F235C1F3C00CD3C04 /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = student.png; path = Assets/student.png; sourceTree = "<group>"; };
-		81EEDF70235C1F3C00CD3C04 /* keanu_boi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = keanu_boi.jpeg; path = Assets/keanu_boi.jpeg; sourceTree = "<group>"; };
-		81EEDF71235C1F3C00CD3C04 /* DevNettransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DevNettransparent.png; path = Assets/DevNettransparent.png; sourceTree = "<group>"; };
-		81EEDF72235C1F3C00CD3C04 /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yes.png; path = Assets/yes.png; sourceTree = "<group>"; };
-		81EEDF73235C1F3C00CD3C04 /* background_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_2.png; path = Assets/background_2.png; sourceTree = "<group>"; };
-		81EEDF80235C213100CD3C04 /* Swipable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipable.swift; sourceTree = "<group>"; };
+		81EEDF52235BBCE400CD3C04 /* elon_boi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elon_boi.jpg; path = Assets/elon_boi.jpg; sourceTree = "<group>"; };
+		81EEDF54235BFA7400CD3C04 /* keanu_boi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = keanu_boi.jpeg; path = Assets/keanu_boi.jpeg; sourceTree = "<group>"; };
 		D340449F40FB8ED87792FD75 /* Pods_DevNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C70D87F9B945D264B5FA26 /* Pods-DevNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevNet/Pods-DevNet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,19 +106,12 @@
 				81EEDF22235AFA3800CD3C04 /* LaunchScreen.storyboard */,
 				81EEDF25235AFA3800CD3C04 /* Info.plist */,
 				81EEDF2D235AFD9500CD3C04 /* GoogleService-Info.plist */,
+				81EEDF44235B963000CD3C04 /* student.png */,
+				81EEDF54235BFA7400CD3C04 /* keanu_boi.jpeg */,
+				81EEDF46235B982B00CD3C04 /* mentor.png */,
+				81EEDF52235BBCE400CD3C04 /* elon_boi.jpg */,
+				81EEDF4A235B9C4F00CD3C04 /* chat.png */,
 				81EEDF1D235AFA3600CD3C04 /* DevNet.xcdatamodeld */,
-				81EEDF6B235C1F3B00CD3C04 /* back.png */,
-				81EEDF73235C1F3C00CD3C04 /* background_2.png */,
-				81EEDF6D235C1F3B00CD3C04 /* chat.png */,
-				81EEDF71235C1F3C00CD3C04 /* DevNettransparent.png */,
-				81EEDF68235C1F3A00CD3C04 /* elon_boi.jpg */,
-				81EEDF70235C1F3C00CD3C04 /* keanu_boi.jpeg */,
-				81EEDF6E235C1F3B00CD3C04 /* login.png */,
-				81EEDF6C235C1F3B00CD3C04 /* mentor.png */,
-				81EEDF69235C1F3A00CD3C04 /* no.png */,
-				81EEDF6A235C1F3A00CD3C04 /* signup.png */,
-				81EEDF6F235C1F3C00CD3C04 /* student.png */,
-				81EEDF72235C1F3C00CD3C04 /* yes.png */,
 				81EEDF48235B988B00CD3C04 /* DevNettransparent.png */,
 			);
 			path = DevNet;
@@ -145,7 +122,6 @@
 			children = (
 				81EEDF3E235AFEDB00CD3C04 /* StudentDeveloper.swift */,
 				81EEDF40235AFF6F00CD3C04 /* Mentor.swift */,
-				81EEDF80235C213100CD3C04 /* Swipable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -242,23 +218,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81EEDF78235C1F3D00CD3C04 /* mentor.png in Resources */,
-				81EEDF7A235C1F3D00CD3C04 /* login.png in Resources */,
-				81EEDF74235C1F3D00CD3C04 /* elon_boi.jpg in Resources */,
 				81EEDF49235B988B00CD3C04 /* DevNettransparent.png in Resources */,
-				81EEDF79235C1F3D00CD3C04 /* chat.png in Resources */,
-				81EEDF77235C1F3D00CD3C04 /* back.png in Resources */,
-				81EEDF7D235C1F3D00CD3C04 /* DevNettransparent.png in Resources */,
+				81EEDF47235B982B00CD3C04 /* mentor.png in Resources */,
 				81EEDF24235AFA3800CD3C04 /* LaunchScreen.storyboard in Resources */,
-				81EEDF76235C1F3D00CD3C04 /* signup.png in Resources */,
-				81EEDF75235C1F3D00CD3C04 /* no.png in Resources */,
+				81EEDF55235BFA7400CD3C04 /* keanu_boi.jpeg in Resources */,
+				81EEDF4B235B9C4F00CD3C04 /* chat.png in Resources */,
 				81EEDF2E235AFD9500CD3C04 /* GoogleService-Info.plist in Resources */,
-				81EEDF7F235C1F3D00CD3C04 /* background_2.png in Resources */,
-				81EEDF7E235C1F3D00CD3C04 /* yes.png in Resources */,
-				81EEDF7B235C1F3D00CD3C04 /* student.png in Resources */,
-				81EEDF7C235C1F3D00CD3C04 /* keanu_boi.jpeg in Resources */,
 				81EEDF21235AFA3800CD3C04 /* Assets.xcassets in Resources */,
+				81EEDF53235BBCE500CD3C04 /* elon_boi.jpg in Resources */,
 				81EEDF1C235AFA3600CD3C04 /* Main.storyboard in Resources */,
+				81EEDF45235B963000CD3C04 /* student.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +259,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DevNet/Pods-DevNet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ButtonProgressBar-iOS/ButtonProgressBar_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/CircleBar/CircleBar.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
-				"${BUILT_PRODUCTS_DIR}/MGSwipeCards/MGSwipeCards.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageViewController/MessageViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/liquid-swipe/liquid_swipe.framework",
@@ -303,11 +273,12 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ButtonProgressBar_iOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeCards.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/liquid_swipe.framework",
@@ -334,7 +305,6 @@
 				81EEDF51235BB3EC00CD3C04 /* MessageView.swift in Sources */,
 				81EEDF33235AFE6900CD3C04 /* LandingPage.swift in Sources */,
 				81EEDF3D235AFEC800CD3C04 /* HomeScreen.swift in Sources */,
-				81EEDF81235C213100CD3C04 /* Swipable.swift in Sources */,
 				81EEDF3F235AFEDB00CD3C04 /* StudentDeveloper.swift in Sources */,
 				81EEDF3B235AFEB900CD3C04 /* TagsPage.swift in Sources */,
 				81EEDF41235AFF6F00CD3C04 /* Mentor.swift in Sources */,
@@ -489,10 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLMV3X79ST;
 				INFOPLIST_FILE = DevNet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Quark.DevNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -508,10 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QLMV3X79ST;
 				INFOPLIST_FILE = DevNet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Quark.DevNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

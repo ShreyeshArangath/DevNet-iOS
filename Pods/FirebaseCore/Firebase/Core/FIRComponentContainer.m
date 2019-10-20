@@ -92,17 +92,14 @@ static NSMutableSet<Class> *sFIRComponentRegistrants;
       // Store the creation block for later usage.
       self.components[protocolName] = component.creationBlock;
 
-      // Instantiate the instance if it has requested to be instantiated.
+      // Instantiate the
       BOOL shouldInstantiateEager =
           (component.instantiationTiming == FIRInstantiationTimingAlwaysEager);
       BOOL shouldInstantiateDefaultEager =
           (component.instantiationTiming == FIRInstantiationTimingEagerInDefaultApp &&
            [app isDefaultApp]);
       if (shouldInstantiateEager || shouldInstantiateDefaultEager) {
-        @synchronized(self) {
-          [self instantiateInstanceForProtocol:component.protocol
-                                     withBlock:component.creationBlock];
-        }
+        [self instantiateInstanceForProtocol:component.protocol withBlock:component.creationBlock];
       }
     }
   }
@@ -115,8 +112,6 @@ static NSMutableSet<Class> *sFIRComponentRegistrants;
 ///   - Call the block to create an instance if possible,
 ///   - Validate that the instance returned conforms to the protocol it claims to,
 ///   - Cache the instance if the block requests it
-///
-/// Note that this method assumes the caller already has @sychronized on self.
 - (nullable id)instantiateInstanceForProtocol:(Protocol *)protocol
                                     withBlock:(FIRComponentCreationBlock)creationBlock {
   if (!creationBlock) {
@@ -152,35 +147,28 @@ static NSMutableSet<Class> *sFIRComponentRegistrants;
 - (nullable id)instanceForProtocol:(Protocol *)protocol {
   // Check if there is a cached instance, and return it if so.
   NSString *protocolName = NSStringFromProtocol(protocol);
-
-  id cachedInstance;
-  @synchronized(self) {
-    cachedInstance = self.cachedInstances[protocolName];
-    if (!cachedInstance) {
-      // Use the creation block to instantiate an instance and return it.
-      FIRComponentCreationBlock creationBlock = self.components[protocolName];
-      cachedInstance = [self instantiateInstanceForProtocol:protocol withBlock:creationBlock];
-    }
+  id cachedInstance = self.cachedInstances[protocolName];
+  if (cachedInstance) {
+    return cachedInstance;
   }
-  return cachedInstance;
+
+  // Use the creation block to instantiate an instance and return it.
+  FIRComponentCreationBlock creationBlock = self.components[protocolName];
+  return [self instantiateInstanceForProtocol:protocol withBlock:creationBlock];
 }
 
 #pragma mark - Lifecycle
 
 - (void)removeAllCachedInstances {
-  @synchronized(self) {
-    // Loop through the cache and notify each instance that is a maintainer to clean up after
-    // itself.
-    for (id instance in self.cachedInstances.allValues) {
-      if ([instance conformsToProtocol:@protocol(FIRComponentLifecycleMaintainer)] &&
-          [instance respondsToSelector:@selector(appWillBeDeleted:)]) {
-        [instance appWillBeDeleted:self.app];
-      }
+  // Loop through the cache and notify each instance that is a maintainer to clean up after itself.
+  for (id instance in self.cachedInstances.allValues) {
+    if ([instance conformsToProtocol:@protocol(FIRComponentLifecycleMaintainer)] &&
+        [instance respondsToSelector:@selector(appWillBeDeleted:)]) {
+      [instance appWillBeDeleted:self.app];
     }
-
-    // Empty the cache.
-    [self.cachedInstances removeAllObjects];
   }
+
+  [self.cachedInstances removeAllObjects];
 }
 
 @end
