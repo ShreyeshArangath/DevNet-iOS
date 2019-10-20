@@ -1,24 +1,17 @@
-//
-//  Developer.swift
-//  DevNet
-//
-//  Created by Shreyesh on 10/19/19.
-//  Copyright © 2019 Quark. All rights reserved.
-//
-
 import UIKit
+import TaggerKit
 
-
-class Developer: UIViewController {
-    
-    
+class Developer: UIViewController{
+    @IBOutlet weak var imageOfDev: UIImageView!
+    @IBOutlet weak var devName: UILabel!
+    @IBOutlet weak var containerView: UIView!
+    var tagCollection = TKCollectionView()
     override func viewDidLoad() {
-        super.viewDidLoad()
-    
         
-        // Do any additional setup after loading the view.
+        super.viewDidLoad()
+        add(tagCollection, toView: containerView)
+        tagCollection.tags = ["C#", "Python", "ASP.NET Core", "ReactJS"]
+        tagCollection.customBackgroundColor = UIColor.cyan
+        
     }
-    
-
-    
 }

@@ -11,8 +11,6 @@ target 'DevNet' do
   pod 'Firebase/Auth'
   pod 'liquid-swipe'
   pod 'SkyFloatingLabelTextField'
-  pod 'CircleBar'
-  pod 'Koloda'
-  pod 'MessageViewController'
-  pod 'ButtonProgressBar-iOS'
+  pod 'TaggerKit'
+
 end
