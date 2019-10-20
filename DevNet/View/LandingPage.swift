@@ -7,9 +7,9 @@
 //
 
 import UIKit
-
 class LandingPage: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

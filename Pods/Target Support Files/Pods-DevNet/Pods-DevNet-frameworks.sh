@@ -143,12 +143,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ButtonProgressBar-iOS/ButtonProgressBar_iOS.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CircleBar/CircleBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MessageViewController/MessageViewController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MGSwipeCards/MGSwipeCards.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/liquid-swipe/liquid_swipe.framework"
@@ -156,12 +155,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/pop/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/ButtonProgressBar-iOS/ButtonProgressBar_iOS.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CircleBar/CircleBar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MessageViewController/MessageViewController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MGSwipeCards/MGSwipeCards.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/liquid-swipe/liquid_swipe.framework"

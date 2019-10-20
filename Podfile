@@ -13,6 +13,7 @@ target 'DevNet' do
   pod 'SkyFloatingLabelTextField'
   pod 'CircleBar'
   pod 'Koloda'
-  pod 'MessageViewController'
-  pod 'ButtonProgressBar-iOS'
+  pod 'pop', '~> 1.0'
+  pod 'MGSwipeCards'
+
 end
