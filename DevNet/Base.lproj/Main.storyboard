@@ -180,7 +180,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbW-5t-8MA">
-                                <rect key="frame" x="270" y="710" width="82" height="79"/>
+                                <rect key="frame" x="270" y="657" width="82" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="yes.png"/>
                                 <connections>
@@ -188,25 +188,25 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZAl-Yb-TcL">
-                                <rect key="frame" x="20" y="97" width="374" height="358"/>
+                                <rect key="frame" x="20" y="44" width="374" height="358"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shreyesh Arangath" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="he2-Wy-5dn">
-                                <rect key="frame" x="31" y="463" width="353" height="64"/>
+                                <rect key="frame" x="31" y="410" width="353" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Texas Tech University" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGE-1Y-KKM">
-                                <rect key="frame" x="111" y="535" width="193" height="26"/>
+                                <rect key="frame" x="111" y="482" width="193" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmx-dd-7uq">
-                                <rect key="frame" x="54" y="710" width="81" height="79"/>
+                                <rect key="frame" x="54" y="657" width="81" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="no.png"/>
                                 <connections>
@@ -214,7 +214,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-Ss-5ZX" customClass="TagListView" customModule="TagListView">
-                                <rect key="frame" x="20" y="586" width="374" height="90"/>
+                                <rect key="frame" x="20" y="533" width="374" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </view>
                         </subviews>
@@ -226,6 +226,7 @@
                         <outlet property="devName" destination="he2-Wy-5dn" id="Nk1-w1-shX"/>
                         <outlet property="imageOfDev" destination="ZAl-Yb-TcL" id="l7D-8D-Foj"/>
                         <outlet property="tagView" destination="Z4h-Ss-5ZX" id="2hi-r0-SIM"/>
+                        <outlet property="universityNameField" destination="FGE-1Y-KKM" id="9z8-aP-5jf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEJ-XD-l3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -260,7 +261,7 @@
         <!--Circle Bar Controller-->
         <scene sceneID="HfS-Y9-akQ">
             <objects>
-                <tabBarController id="dAU-tu-nj0" customClass="SHCircleBarController" customModule="CircleBar" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="pageSheet" id="dAU-tu-nj0" customClass="SHCircleBarController" customModule="CircleBar" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UFV-6y-BWJ" customClass="SHCircleBar" customModule="CircleBar">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
