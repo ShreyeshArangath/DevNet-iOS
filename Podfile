@@ -11,6 +11,7 @@ target 'DevNet' do
   pod 'Firebase/Auth'
   pod 'liquid-swipe'
   pod 'SkyFloatingLabelTextField'
-  pod 'TaggerKit'
+  pod 'CircleBar'
+  pod 'TagListView', '~> 1.0'
 
 end

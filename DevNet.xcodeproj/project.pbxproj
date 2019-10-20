@@ -13,6 +13,7 @@
 		81D13E2B235C4A50003D7605 /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E27235C4A50003D7605 /* yes.png */; };
 		81D13E2D235C512D003D7605 /* UserDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D13E2C235C512D003D7605 /* UserDescription.swift */; };
 		81D13E2F235C51DF003D7605 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E2E235C51DE003D7605 /* back.png */; };
+		81D13E31235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E30235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg */; };
 		81EEDF17235AFA3600CD3C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF16235AFA3600CD3C04 /* AppDelegate.swift */; };
 		81EEDF19235AFA3600CD3C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF18235AFA3600CD3C04 /* ViewController.swift */; };
 		81EEDF1C235AFA3600CD3C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF1A235AFA3600CD3C04 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		81D13E27235C4A50003D7605 /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yes.png; path = Assets/yes.png; sourceTree = "<group>"; };
 		81D13E2C235C512D003D7605 /* UserDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDescription.swift; sourceTree = "<group>"; };
 		81D13E2E235C51DE003D7605 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Assets/back.png; sourceTree = "<group>"; };
+		81D13E30235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Some_Guy_On_A_Potato_grande.jpg; path = Assets/Some_Guy_On_A_Potato_grande.jpg; sourceTree = "<group>"; };
 		81EEDF13235AFA3600CD3C04 /* DevNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EEDF16235AFA3600CD3C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81EEDF18235AFA3600CD3C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				81D13E24235C4A4E003D7605 /* no.png */,
 				81D13E2E235C51DE003D7605 /* back.png */,
 				81D13E25235C4A4E003D7605 /* signup.png */,
+				81D13E30235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg */,
 				81D13E27235C4A50003D7605 /* yes.png */,
 				81EEDF54235BFA7400CD3C04 /* keanu_boi.jpeg */,
 				81EEDF46235B982B00CD3C04 /* mentor.png */,
@@ -244,6 +247,7 @@
 				81EEDF4B235B9C4F00CD3C04 /* chat.png in Resources */,
 				81EEDF2E235AFD9500CD3C04 /* GoogleService-Info.plist in Resources */,
 				81D13E28235C4A50003D7605 /* no.png in Resources */,
+				81D13E31235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg in Resources */,
 				81EEDF21235AFA3800CD3C04 /* Assets.xcassets in Resources */,
 				81EEDF53235BBCE500CD3C04 /* elon_boi.jpg in Resources */,
 				81EEDF1C235AFA3600CD3C04 /* Main.storyboard in Resources */,
@@ -282,10 +286,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DevNet/Pods-DevNet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CircleBar/CircleBar.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
-				"${BUILT_PRODUCTS_DIR}/TaggerKit/TaggerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/liquid-swipe/liquid_swipe.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -293,10 +298,11 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TaggerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/liquid_swipe.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",

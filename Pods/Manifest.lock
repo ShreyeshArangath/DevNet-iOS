@@ -1,4 +1,5 @@
 PODS:
+  - CircleBar (0.8.2)
   - Firebase/Analytics (6.10.0):
     - Firebase/Core
   - Firebase/Auth (6.10.0):
@@ -87,18 +88,20 @@ PODS:
   - nanopb/encode (0.3.901)
   - pop (1.0.12)
   - SkyFloatingLabelTextField (3.7.0)
-  - TaggerKit (0.6.1)
+  - TagListView (1.4.0)
 
 DEPENDENCIES:
+  - CircleBar
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Database
   - liquid-swipe
   - SkyFloatingLabelTextField
-  - TaggerKit
+  - TagListView (~> 1.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - CircleBar
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -118,9 +121,10 @@ SPEC REPOS:
     - nanopb
     - pop
     - SkyFloatingLabelTextField
-    - TaggerKit
+    - TagListView
 
 SPEC CHECKSUMS:
+  CircleBar: 8e17d2090e6e319b518010535a3145fb8fd68c22
   Firebase: 5e6b7b12bf9adb90986688edc06b156c37e109cd
   FirebaseAnalytics: 0e3ecff2c5d86070f7d4325e21f1edabfbd558dc
   FirebaseAuth: c66e990f79d1d3429165391f6cd70ace6143c25e
@@ -140,8 +144,8 @@ SPEC CHECKSUMS:
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
-  TaggerKit: e88422048a006b409a37b37f24785dfcca69b5b2
+  TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
 
-PODFILE CHECKSUM: 7aef3103a4acd2ea5c4c966c37502d2bb8e7a295
+PODFILE CHECKSUM: 0cb2fd41c57942fa8f2b2d0a9da1104c2833c772
 
 COCOAPODS: 1.5.0
