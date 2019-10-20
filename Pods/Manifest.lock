@@ -1,4 +1,5 @@
 PODS:
+  - ButtonProgressBar-iOS (1.0.1)
   - CircleBar (0.8.2)
   - Firebase/Analytics (6.7.0):
     - Firebase/Core
@@ -92,6 +93,7 @@ PODS:
   - SkyFloatingLabelTextField (3.7.0)
 
 DEPENDENCIES:
+  - ButtonProgressBar-iOS
   - CircleBar
   - Firebase/Analytics
   - Firebase/Auth
@@ -103,6 +105,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - ButtonProgressBar-iOS
     - CircleBar
     - Firebase
     - FirebaseAnalytics
@@ -127,6 +130,7 @@ SPEC REPOS:
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
+  ButtonProgressBar-iOS: 1127f15c7ab843648febc857fc2018c8224675c7
   CircleBar: 8e17d2090e6e319b518010535a3145fb8fd68c22
   Firebase: 291d7b0a7b393f252358083b5d224884126fa46d
   FirebaseAnalytics: 843c7f64a8f9c79f0d03281197ebe7bb1d58d477
@@ -150,6 +154,6 @@ SPEC CHECKSUMS:
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
 
-PODFILE CHECKSUM: 0bd43c7e3f38b52b92e5e68c3a275ee6756ea022
+PODFILE CHECKSUM: 6c1aa831ff60c5ca52413ab0c436bbd9edeeb883
 
 COCOAPODS: 1.5.0

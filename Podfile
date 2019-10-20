@@ -14,4 +14,5 @@ target 'DevNet' do
   pod 'CircleBar'
   pod 'Koloda'
   pod 'MessageViewController'
+  pod 'ButtonProgressBar-iOS'
 end
