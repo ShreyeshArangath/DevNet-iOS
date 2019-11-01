@@ -8,7 +8,7 @@ for developers around a certain area.
 This app was my side project for HackWesTX. I wanted to promote this app to allow students to help find groups at hackathons easily. 
 
 ## Some Screenshots
-![Main Screen](/DevNet/Assets/MainScreen.png)
+![Main Screen](/DevNet/Assets/LandingScreen.png)
 ![Login Screen](/DevNet/Assets/LoginScreen.png)
 ![Student Screen](/DevNet/Assets/StudentView.png)
 
