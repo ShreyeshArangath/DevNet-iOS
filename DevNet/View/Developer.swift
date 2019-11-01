@@ -11,6 +11,7 @@ class Developer: UIViewController{
     @IBOutlet weak var devName: UILabel!
     @IBOutlet weak var universityNameField: UILabel!
     
+    let images = ["20191019_215211.jpg", "20191019_215106.jpg", "20191019_215033.jpg", "elon_boi.jpg", "keanu_boi.jpeg"]
     
     var ref: DocumentReference? = nil
     
@@ -21,7 +22,7 @@ class Developer: UIViewController{
         super.viewDidLoad()
         tagView.textFont = UIFont.systemFont(ofSize: 24)
         tagView.addTags(["C#", "ReactJS", "ASP.NET Core", "Python", "BackEnd Engineering"])
-        imageOfDev.image=UIImage(named: "Some_Guy_On_A_Potato_grande.jpg")
+        imageOfDev.image=UIImage(named: "keanu_boi.jpeg")
         
     }
     
@@ -43,6 +44,8 @@ class Developer: UIViewController{
             
             self.tagView.removeAllTags()
             self.tagView.addTags(document?.get("skills") as! Array<String>)
+            
+                self.imageOfDev.image=UIImage(named: self.images[Int(randomNumber)])
 
                 
         }

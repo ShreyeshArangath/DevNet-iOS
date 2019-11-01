@@ -18,6 +18,19 @@
 		81D13E35235C6893003D7605 /* DevNettransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E33235C6893003D7605 /* DevNettransparent.png */; };
 		81D13E38235C746F003D7605 /* schrodinger.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E36235C746E003D7605 /* schrodinger.png */; };
 		81D13E39235C746F003D7605 /* bezos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E37235C746F003D7605 /* bezos.jpg */; };
+		81D13E3B235C7A68003D7605 /* MentorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D13E3A235C7A68003D7605 /* MentorsView.swift */; };
+		81D13E40235C7C54003D7605 /* jeff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E3C235C7C52003D7605 /* jeff.jpg */; };
+		81D13E41235C7C54003D7605 /* EulerLeonhard300px.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E3D235C7C53003D7605 /* EulerLeonhard300px.jpg */; };
+		81D13E42235C7C54003D7605 /* 712Bi59beRL._SL1500_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E3E235C7C53003D7605 /* 712Bi59beRL._SL1500_.jpg */; };
+		81D13E43235C7C54003D7605 /* schrodinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E3F235C7C53003D7605 /* schrodinger.jpg */; };
+		81D13E49235C7DD1003D7605 /* elon_boi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E44235C7DD0003D7605 /* elon_boi.jpg */; };
+		81D13E4A235C7DD1003D7605 /* johncena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E45235C7DD0003D7605 /* johncena.jpg */; };
+		81D13E4B235C7DD1003D7605 /* ironman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E46235C7DD0003D7605 /* ironman.jpg */; };
+		81D13E4C235C7DD1003D7605 /* woody.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E47235C7DD1003D7605 /* woody.jpg */; };
+		81D13E4D235C7DD1003D7605 /* batman.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E48235C7DD1003D7605 /* batman.png */; };
+		81D13E51235C837C003D7605 /* 20191019_215033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E4E235C837B003D7605 /* 20191019_215033.jpg */; };
+		81D13E52235C837C003D7605 /* 20191019_215106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E4F235C837B003D7605 /* 20191019_215106.jpg */; };
+		81D13E53235C837C003D7605 /* 20191019_215211.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D13E50235C837B003D7605 /* 20191019_215211.jpg */; };
 		81EEDF17235AFA3600CD3C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF16235AFA3600CD3C04 /* AppDelegate.swift */; };
 		81EEDF19235AFA3600CD3C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EEDF18235AFA3600CD3C04 /* ViewController.swift */; };
 		81EEDF1C235AFA3600CD3C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EEDF1A235AFA3600CD3C04 /* Main.storyboard */; };
@@ -57,6 +70,19 @@
 		81D13E33235C6893003D7605 /* DevNettransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DevNettransparent.png; path = Assets/DevNettransparent.png; sourceTree = "<group>"; };
 		81D13E36235C746E003D7605 /* schrodinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = schrodinger.png; path = Assets/schrodinger.png; sourceTree = "<group>"; };
 		81D13E37235C746F003D7605 /* bezos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bezos.jpg; path = Assets/bezos.jpg; sourceTree = "<group>"; };
+		81D13E3A235C7A68003D7605 /* MentorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorsView.swift; sourceTree = "<group>"; };
+		81D13E3C235C7C52003D7605 /* jeff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jeff.jpg; path = Assets/jeff.jpg; sourceTree = "<group>"; };
+		81D13E3D235C7C53003D7605 /* EulerLeonhard300px.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EulerLeonhard300px.jpg; path = Assets/EulerLeonhard300px.jpg; sourceTree = "<group>"; };
+		81D13E3E235C7C53003D7605 /* 712Bi59beRL._SL1500_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 712Bi59beRL._SL1500_.jpg; path = Assets/712Bi59beRL._SL1500_.jpg; sourceTree = "<group>"; };
+		81D13E3F235C7C53003D7605 /* schrodinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = schrodinger.jpg; path = Assets/schrodinger.jpg; sourceTree = "<group>"; };
+		81D13E44235C7DD0003D7605 /* elon_boi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elon_boi.jpg; path = Assets/elon_boi.jpg; sourceTree = "<group>"; };
+		81D13E45235C7DD0003D7605 /* johncena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = johncena.jpg; path = Assets/johncena.jpg; sourceTree = "<group>"; };
+		81D13E46235C7DD0003D7605 /* ironman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ironman.jpg; path = Assets/ironman.jpg; sourceTree = "<group>"; };
+		81D13E47235C7DD1003D7605 /* woody.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = woody.jpg; path = Assets/woody.jpg; sourceTree = "<group>"; };
+		81D13E48235C7DD1003D7605 /* batman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = batman.png; path = Assets/batman.png; sourceTree = "<group>"; };
+		81D13E4E235C837B003D7605 /* 20191019_215033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 20191019_215033.jpg; path = Assets/20191019_215033.jpg; sourceTree = "<group>"; };
+		81D13E4F235C837B003D7605 /* 20191019_215106.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 20191019_215106.jpg; path = Assets/20191019_215106.jpg; sourceTree = "<group>"; };
+		81D13E50235C837B003D7605 /* 20191019_215211.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 20191019_215211.jpg; path = Assets/20191019_215211.jpg; sourceTree = "<group>"; };
 		81EEDF13235AFA3600CD3C04 /* DevNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EEDF16235AFA3600CD3C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81EEDF18235AFA3600CD3C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,9 +156,21 @@
 				81EEDF2D235AFD9500CD3C04 /* GoogleService-Info.plist */,
 				81D13E32235C6893003D7605 /* DevNet-font.png */,
 				81D13E33235C6893003D7605 /* DevNettransparent.png */,
+				81D13E48235C7DD1003D7605 /* batman.png */,
+				81D13E44235C7DD0003D7605 /* elon_boi.jpg */,
+				81D13E46235C7DD0003D7605 /* ironman.jpg */,
+				81D13E45235C7DD0003D7605 /* johncena.jpg */,
+				81D13E4E235C837B003D7605 /* 20191019_215033.jpg */,
+				81D13E4F235C837B003D7605 /* 20191019_215106.jpg */,
+				81D13E50235C837B003D7605 /* 20191019_215211.jpg */,
+				81D13E47235C7DD1003D7605 /* woody.jpg */,
 				81EEDF44235B963000CD3C04 /* student.png */,
 				81D13E26235C4A4F003D7605 /* login.png */,
 				81D13E24235C4A4E003D7605 /* no.png */,
+				81D13E3E235C7C53003D7605 /* 712Bi59beRL._SL1500_.jpg */,
+				81D13E3D235C7C53003D7605 /* EulerLeonhard300px.jpg */,
+				81D13E3C235C7C52003D7605 /* jeff.jpg */,
+				81D13E3F235C7C53003D7605 /* schrodinger.jpg */,
 				81D13E37235C746F003D7605 /* bezos.jpg */,
 				81D13E36235C746E003D7605 /* schrodinger.png */,
 				81D13E2E235C51DE003D7605 /* back.png */,
@@ -170,6 +208,7 @@
 				81EEDF4E235BA69200CD3C04 /* Developer.swift */,
 				81EEDF50235BB3EC00CD3C04 /* MessageView.swift */,
 				81D13E2C235C512D003D7605 /* UserDescription.swift */,
+				81D13E3A235C7A68003D7605 /* MentorsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -254,16 +293,28 @@
 				81D13E2B235C4A50003D7605 /* yes.png in Resources */,
 				81EEDF49235B988B00CD3C04 /* DevNettransparent.png in Resources */,
 				81EEDF47235B982B00CD3C04 /* mentor.png in Resources */,
+				81D13E4B235C7DD1003D7605 /* ironman.jpg in Resources */,
+				81D13E53235C837C003D7605 /* 20191019_215211.jpg in Resources */,
 				81EEDF24235AFA3800CD3C04 /* LaunchScreen.storyboard in Resources */,
 				81EEDF55235BFA7400CD3C04 /* keanu_boi.jpeg in Resources */,
+				81D13E4C235C7DD1003D7605 /* woody.jpg in Resources */,
 				81EEDF4B235B9C4F00CD3C04 /* chat.png in Resources */,
 				81EEDF2E235AFD9500CD3C04 /* GoogleService-Info.plist in Resources */,
+				81D13E4D235C7DD1003D7605 /* batman.png in Resources */,
+				81D13E4A235C7DD1003D7605 /* johncena.jpg in Resources */,
 				81D13E28235C4A50003D7605 /* no.png in Resources */,
+				81D13E52235C837C003D7605 /* 20191019_215106.jpg in Resources */,
 				81D13E31235C5A4F003D7605 /* Some_Guy_On_A_Potato_grande.jpg in Resources */,
+				81D13E49235C7DD1003D7605 /* elon_boi.jpg in Resources */,
 				81EEDF21235AFA3800CD3C04 /* Assets.xcassets in Resources */,
+				81D13E41235C7C54003D7605 /* EulerLeonhard300px.jpg in Resources */,
+				81D13E42235C7C54003D7605 /* 712Bi59beRL._SL1500_.jpg in Resources */,
 				81EEDF53235BBCE500CD3C04 /* elon_boi.jpg in Resources */,
 				81EEDF1C235AFA3600CD3C04 /* Main.storyboard in Resources */,
+				81D13E43235C7C54003D7605 /* schrodinger.jpg in Resources */,
 				81D13E38235C746F003D7605 /* schrodinger.png in Resources */,
+				81D13E40235C7C54003D7605 /* jeff.jpg in Resources */,
+				81D13E51235C837C003D7605 /* 20191019_215033.jpg in Resources */,
 				81D13E35235C6893003D7605 /* DevNettransparent.png in Resources */,
 				81D13E2F235C51DF003D7605 /* back.png in Resources */,
 				81EEDF45235B963000CD3C04 /* student.png in Resources */,
@@ -355,6 +406,7 @@
 				81EEDF39235AFEA900CD3C04 /* EmailPage.swift in Sources */,
 				81EEDF37235AFE8700CD3C04 /* RegistrationPage.swift in Sources */,
 				81EEDF19235AFA3600CD3C04 /* ViewController.swift in Sources */,
+				81D13E3B235C7A68003D7605 /* MentorsView.swift in Sources */,
 				81EEDF51235BB3EC00CD3C04 /* MessageView.swift in Sources */,
 				81EEDF33235AFE6900CD3C04 /* LandingPage.swift in Sources */,
 				81EEDF3D235AFEC800CD3C04 /* HomeScreen.swift in Sources */,

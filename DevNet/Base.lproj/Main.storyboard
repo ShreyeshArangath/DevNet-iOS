@@ -133,7 +133,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="mUh-Xz-O8q" customClass="MessageViewCell" customModule="DevNet" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" id="mUh-Xz-O8q" customClass="MessageViewCell" customModule="DevNet" customModuleProvider="target">
                                 <rect key="frame" x="1" y="0.0" width="412" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -155,17 +155,64 @@
             </objects>
             <point key="canvasLocation" x="2745" y="903"/>
         </scene>
-        <!--View Controller-->
+        <!--Mentors View-->
         <scene sceneID="9ZF-oI-m61">
             <objects>
-                <viewController id="i2L-YZ-8gO" sceneMemberID="viewController">
+                <viewController id="i2L-YZ-8gO" customClass="MentorsView" customModule="DevNet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QKi-4g-a3B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XB-z9-epz">
+                                <rect key="frame" x="302" y="685" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="yes.png"/>
+                                <connections>
+                                    <action selector="acceptButtonPressed:" destination="dBC-ko-uch" eventType="touchUpInside" id="0yc-IT-166"/>
+                                    <action selector="swipeRightOnMentor:" destination="i2L-YZ-8gO" eventType="touchUpInside" id="3gg-iz-wAM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Regina Philange" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iya-1W-9hY">
+                                <rect key="frame" x="31" y="447" width="353" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dartmouth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7R-WA-IAG">
+                                <rect key="frame" x="160" y="519" width="96" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvc-gf-bUU">
+                                <rect key="frame" x="41" y="690" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="no.png"/>
+                                <connections>
+                                    <action selector="declineButtonPressed:" destination="dBC-ko-uch" eventType="touchUpInside" id="JXx-09-N8A"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FUR-c1-Hzx" customClass="TagListView" customModule="TagListView">
+                                <rect key="frame" x="20" y="570" width="374" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XXj-p3-ZGs">
+                                <rect key="frame" x="21" y="81" width="374" height="358"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Fl4-Te-cHb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="mentor.png" id="KGb-o3-PpM"/>
+                    <connections>
+                        <outlet property="almaMatter" destination="F7R-WA-IAG" id="tvz-Br-3V9"/>
+                        <outlet property="mentorName" destination="Iya-1W-9hY" id="aZh-8Z-ZeX"/>
+                        <outlet property="mentorPicture" destination="XXj-p3-ZGs" id="XpD-rm-IsB"/>
+                        <outlet property="mentorSkills" destination="FUR-c1-Hzx" id="yNC-dt-je5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zyF-Ij-fIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -54,14 +54,14 @@ class MessageViewCell: BaseCell {
     
     let nameLabel: UILabel = {
         let label = UILabel()
-        label.text = "Boi"
+        label.text = "Phillip Lolkinsky"
         label.font = UIFont.systemFont(ofSize: 18)
         return label
     }()
     
     let messageLabel: UILabel = {
         let label = UILabel()
-        label.text = "Plis reply"
+        label.text = "Hey! I see that you are into ML. Can you help me with a problem that I'm facing ?"
         label.textColor = UIColor.darkGray
         label.font = UIFont.systemFont(ofSize: 14)
         return label
