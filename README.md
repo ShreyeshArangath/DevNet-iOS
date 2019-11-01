@@ -7,4 +7,8 @@ for developers around a certain area.
 ## Other Use Cases
 This app was my side project for HackWesTX. I wanted to promote this app to allow students to help find groups at hackathons easily. 
 
-##Some Screenshots
+## Some Screenshots
+![Main Screen](/DevNet/Assets/MainScreen.png)
+![Login Screen](/DevNet/Assets/LoginScreen.png)
+![Student Screen](/DevNet/Assets/StudentView.png)
+
